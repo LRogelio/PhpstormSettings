@@ -1,0 +1,9 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="PHP">
+        <added pattern="\Symfony\Bundle\FrameworkBundle\Controller\ControllerTrait.createForm(type,data,options)" />
+      </blacklist>
+    </blacklists>
+  </component>
+</application>

@@ -1,0 +1,5 @@
+com.alayouni.ansiHighlight
+com.intellij.ideolog
+de.espend.idea.php.annotation
+fr.adrienbrault.idea.symfony2plugin
+in.thekalinga.snippet.intellij

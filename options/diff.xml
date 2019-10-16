@@ -1,0 +1,12 @@
+<application>
+  <component name="TextDiffSettings">
+    <option name="PLACES_MAP">
+      <entry key="Merge">
+        <PlaceSettings>
+          <option name="HIGHLIGHT_POLICY" value="BY_LINE" />
+          <option name="USE_SOFT_WRAPS" value="true" />
+        </PlaceSettings>
+      </entry>
+    </option>
+  </component>
+</application>

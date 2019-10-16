@@ -1,0 +1,18 @@
+<keymap version="1" name="Default copy" parent="$default">
+  <action id="FileChooser.NewFolder">
+    <keyboard-shortcut first-keystroke="alt insert" />
+  </action>
+  <action id="GotoChangedFile" />
+  <action id="GotoClass" />
+  <action id="NewElement">
+    <keyboard-shortcut first-keystroke="alt insert" />
+    <keyboard-shortcut first-keystroke="ctrl n" />
+  </action>
+  <action id="ShowNavBar">
+    <keyboard-shortcut first-keystroke="alt home" />
+    <keyboard-shortcut first-keystroke="alt n" />
+  </action>
+  <action id="ZoomCurrentWindow">
+    <keyboard-shortcut first-keystroke="ctrl add" />
+  </action>
+</keymap>

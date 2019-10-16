@@ -1,0 +1,143 @@
+<templateSet group="renaud">
+  <template name="$dd" value="dump();&#10;die();" description="Die dump" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="tble" value="&lt;table class=&quot;table&quot;&gt;&#10;&lt;thead&gt;&#10;    &lt;tr&gt;&#10;  &lt;th&gt;&lt;/th&gt;&#10;    &lt;/tr&gt;&#10;&lt;thead&gt;&#10;&lt;tbody&gt;&#10;    &lt;tr&gt;&#10;        &lt;td&gt;&lt;/td&gt;&#10;    &lt;/tr&gt;&#10;&lt;/tbody&gt;&#10;&lt;/table&gt;" description="Ecrire table" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="dr" value="&lt;div class=&quot;row&quot;&gt;&#10;&lt;/div&gt;" description="div class row" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="df" value="&lt;div class=&quot;form-control&quot;&gt;&#10;&lt;/div&gt;&#10;" description="div + form-control" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="card" value="&#10;    &lt;div class=&quot;card&quot;&gt;&#10;    &#10;        &lt;div class=&quot;card-body&quot;&gt;&#10;            &lt;div class=&quot;card-title&quot;&gt;----&lt;/div&gt;&#10;            &#10;            &lt;/div&gt; &#10;            &lt;/div&gt;&#10;            " description="div card" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="alrts" value="&lt;div align=&quot;center&quot;  class=&quot;alert alert-success&quot;&gt;&lt;/div&gt;" description="div alert danger" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="das" value="&lt;div class=&quot;alert alert-success alert-dismissable&quot;&gt;Ecrire&#10;    &lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;alert&quot; aria-label=&quot;Close&quot;&gt;&lt;span aria-hidden=&quot;true&quot;&gt;×&lt;/span&gt;&lt;/button&gt;&#10;&lt;/div&gt;" description="dismissible alert success" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="block" value="{% block %}&#10;{% endblock %}" description="block statement" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="cl" value="console.log();" description="console.log" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="da" value=" $schemas_ecriture = $this-&gt;get('service.crudgtservice')-&gt;ajaxPostData('search_code_schema_by_type_produit', array('idTypeProduit' =&gt; $idTypeProduit));&#10;" description="ajxPostData" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="iep" value="{% if prodCredit.  %}&#10;{% else %}&#10;{% endif %}" description="if and else in twif" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="repo" value="$variable = $em-&gt;getRepository('Bundle:Entity')-&gt;findAll();" description="findaAll" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="fb" value=" $variable = $em-&gt;getRepository('Bundle:Entity')-&gt;findBy([''=&gt;$var]);&#10;    " description="FindBy statement shortcut" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="ajax" value=" $response = $this-&gt;get('service.crudgtservice')-&gt;ajaxPostData('$route', ['key' =&gt; $value]);&#10;" description="ajaxPostData statement" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="sr" value="$entity = $this-&gt;get('service.crudgtservice')-&gt;serialiserResponseJson($response, $entityPath);&#10;" description="serialiseResponse" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="em" value="$em = $this-&gt;getDoctrine()-&gt;getManager();  " description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="stri" value=" trim($var, &quot; \t\n\r\0\x0B\xC2\xA0&quot;)" description="trim approfindi" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="ie" value="{% if   %}&#10;{% else %}&#10;{% endif %}" description="if and else in twif" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="ade" value="$this-&gt;addFlash(&quot;error&quot;,&quot;&quot;);" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="ads" value="$this-&gt;addFlash(&quot;success&quot;,&quot;&quot;);" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="gal" value="$variables = $this-&gt;get('service.crudgtservice')-&gt;getAllList('route', $entity);" description="Get all list" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="dt" value="new \DateTime()" description="new Datetime" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="$." value="$('.')" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="fob" value="                 $variable = $em-&gt;getRepository('Bundle:Entity')-&gt;findOneBy([''=&gt;$var]);&#10;" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="fo" value="for($i=0; $i&lt;$var; $i++){&#10;             &#10;         }" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="eb" value="{% extends 'base.html.twig' %}&#10;&#10;{% block content %}&#10;&#10;{% endblock %}&#10;&#10;&#10;{% block javascripts %}&#10;{{parent()}}&#10;&#10;{% endblock %}&#10;&#10;&#10;&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="hding" value="&lt;div style=&quot;background-color: #C9D9DD &quot; class=&quot;page-heading&quot;&gt;&#10;    &lt;div class=&quot;page-heading__container&quot;&gt;&lt;h1 class=&quot;title&quot;&gt;IGO-MICROFINANCE&lt;/h1&gt;&#10;        &lt;p class=&quot;caption&quot;&gt;Une super description&lt;/p&gt;&#10;    &lt;/div&gt;&#10;    &lt;nav aria-label=&quot;breadcrumb&quot; role=&quot;navigation&quot;&gt;&#10;        &lt;ol style=&quot;background-color: #C9D9DD !important; &quot; class=&quot;breadcrumb&quot;&gt;&#10;            &lt;li class=&quot;breadcrumb-item&quot;&gt;&lt;a href=&quot;#&quot;&gt;Configuration&lt;/a&gt;&lt;/li&gt;&#10;            &lt;li class=&quot;breadcrumb-item active &quot;&gt;Tableau de bord&lt;/li&gt;&#10;        &lt;/ol&gt;&#10;    &lt;/nav&gt;&#10;&lt;/div&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+</templateSet>
